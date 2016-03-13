@@ -1,0 +1,97 @@
+body {
+	color: black;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	font-family: "Arvo";
+	font-size: 48px;
+}
+
+a {
+	color: #00FFAD;
+}
+
+#logo {
+	width: 50px;
+	border: 2px solid black;
+}
+
+.user {
+	width: 110px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#teaser {
+	border: 2px solid green;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding: 30px;
+	color: white;
+	text-align: center;
+	}
+
+#container {
+	margin-top: 50px;
+	padding-top: 100px;
+	background-image: url("https://res.cloudinary.com/zipjet/image/upload/v1443537350/top-section-bg-2b_olejmc.jpg");
+
+}
+
+#users {
+	margin: 10px;
+	border: 2px solid green;
+}
+
+.zipsearch{
+	border: 2px solid blue;
+}
+
+#apps {
+	background-color: rgba(53,51, 50, 0.8);
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px; 
+}
+
+#apps img {
+	width: 150px;
+}
+
+#apps img:hover {
+	opacity: 0.6;
+}
+
+#apps li {
+	display: inline;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+.navbar {
+	background-color: white;
+}
+
+#press {
+	background-color: #F9F9F9;
+	text-align: center;
+}
+
+#press li {
+	display: inline;
+	margin-left: 50px;
+	margin-right: 5
+}
+
+#press img {
+	width: 100px;
+}
+
+#press img:hover {
+	opacity: 0.6;
+}
+
