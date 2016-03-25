@@ -1,6 +1,7 @@
 body {
-	color: black;
+	color: ##95a29b;
 	font-family: "Open Sans", sans-serif;
+	text-align: center;
 }
 
 h1 {
@@ -8,8 +9,20 @@ h1 {
 	font-size: 48px;
 }
 
+h2 {
+
+}
+
+h3 {
+	font-size: 24px;
+}
+
 a {
-	color: #00FFAD;
+	color: #3a483f;
+}
+
+div {
+	display: block;
 }
 
 #logo {
@@ -30,7 +43,9 @@ a {
 	margin-right: 100px;
 	margin-left: 100px;
 	margin-bottom: 20px;
-	padding: 30px;
+	padding: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
 	color: white;
 	text-align: center;
 	}
@@ -49,24 +64,25 @@ a {
 
 .zipsearch{
 	border: 2px solid blue;
+	display: center;
 }
 
 #apps {
 	background-color: rgba(53,51, 50, 0.8);
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 10px; 
 }
 
-#apps img {
+#apps ul li {
+	display: inline;
+}
+
+.badges {
 	width: 150px;
 }
 
-#apps img:hover {
-	opacity: 0.6;
-}
-
-#apps li {
+.list_horizon {
 	display: inline;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -81,17 +97,32 @@ a {
 	text-align: center;
 }
 
-#press li {
-	display: inline;
-	margin-left: 50px;
-	margin-right: 5
+#press ul li {
+	display: inline; 
 }
 
 #press img {
 	width: 100px;
 }
 
-#press img:hover {
-	opacity: 0.6;
+img:hover {
+	opacity: 0.8;
 }
 
+#how-it-works {
+	border: 2px solid red;
+}
+
+
+.sub-heading {
+	display: block;
+	font-weight: normal;
+}
+
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
