@@ -34,11 +34,7 @@ div {
 	width: 110px;
 }
 
-.img-circle {
-    border-radius: 50%;
-}
-
-#teaser {
+.teaser-content {
 	border: 2px solid green;
 	margin-right: 100px;
 	margin-left: 100px;
@@ -50,21 +46,20 @@ div {
 	text-align: center;
 	}
 
-#container {
+#teaser {
 	margin-top: 50px;
 	padding-top: 100px;
 	background-image: url("https://res.cloudinary.com/zipjet/image/upload/v1443537350/top-section-bg-2b_olejmc.jpg");
-
 }
 
 #users {
 	margin: 10px;
 	border: 2px solid green;
+	text-align: left;
 }
 
 .zipsearch{
 	border: 2px solid blue;
-	display: center;
 }
 
 #apps {
@@ -74,19 +69,10 @@ div {
 	padding-bottom: 10px; 
 }
 
-#apps ul li {
-	display: inline;
-}
-
 .badges {
 	width: 150px;
 }
 
-.list_horizon {
-	display: inline;
-	margin-left: 75px;
-	margin-right: 75px;
-}
 
 .navbar {
 	background-color: white;
@@ -95,10 +81,10 @@ div {
 #press {
 	background-color: #F9F9F9;
 	text-align: center;
-}
-
-#press ul li {
-	display: inline; 
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 #press img {
@@ -125,4 +111,8 @@ iframe:focus {
 
 iframe[seamless] { 
     display: block;
+}
+
+#value-prop {
+	text-align: center;
 }
