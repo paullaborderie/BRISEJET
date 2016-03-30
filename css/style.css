@@ -1,7 +1,8 @@
 body {
-	color: ##95a29b;
-	font-family: "Open Sans", sans-serif;
+	color: #95a29b;
+	font-family: "Lato", sans-serif;
 	text-align: center;
+	font-size: 16px;
 }
 
 h1 {
@@ -10,7 +11,9 @@ h1 {
 }
 
 h2 {
-
+	font-family: "Arvo";
+	font-size: 36px;
+	color: #3a483f;
 }
 
 h3 {
@@ -25,9 +28,43 @@ div {
 	display: block;
 }
 
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: auto;
+}
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+	border: 1px solid #ddd;
+}
+
+.row [class^="col-"] {
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}  <!-- pour visulaiser grid bootstrap -->
+
+
 #logo {
 	width: 50px;
 	border: 2px solid black;
+}
+
+.navbar-default {
+	background:transparent;
+    border-color: transparent;
+    padding-right: 50px;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
 }
 
 .user {
@@ -35,47 +72,41 @@ div {
 }
 
 .teaser-content {
-	border: 2px solid green;
-	margin-right: 100px;
-	margin-left: 100px;
-	margin-bottom: 20px;
 	padding: 40px;
 	padding-right: 10px;
 	padding-left: 10px;
+	padding-bottom: 80px;
 	color: white;
-	text-align: center;
 	}
 
-#teaser {
-	margin-top: 50px;
+#teaser {	
 	padding-top: 100px;
-	background-image: url("https://res.cloudinary.com/zipjet/image/upload/v1443537350/top-section-bg-2b_olejmc.jpg");
+    background: url("https://res.cloudinary.com/zipjet/image/upload/v1443537350/top-section-bg-2b_olejmc.jpg") 
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+#teaser-title {
+	margin-bottom: 25px;
+}
+
+
 #users {
-	margin: 10px;
 	border: 2px solid green;
 	text-align: left;
 }
 
-.zipsearch{
-	border: 2px solid blue;
-}
-
 #apps {
-	background-color: rgba(53,51, 50, 0.8);
-	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px; 
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .badges {
-	width: 150px;
-}
-
-
-.navbar {
-	background-color: white;
+	height: 50px;
 }
 
 #press {
@@ -83,12 +114,20 @@ div {
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #press img {
-	width: 100px;
+	width: 100%;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 img:hover {
@@ -99,6 +138,9 @@ img:hover {
 	border: 2px solid red;
 }
 
+#how-it-works h3 {
+	color: #3a483f;
+} 
 
 .sub-heading {
 	display: block;
@@ -115,4 +157,41 @@ iframe[seamless] {
 
 #value-prop {
 	text-align: center;
+	margin-top: 10px;
+	height: auto;
+}
+
+#intro-video {
+	margin-top: 10px;
+	padding: 10px;
+	border: 2px solid green;
+
+}
+
+.perks {
+	border: 2px solid grey;
+}
+
+.perks-text {
+
+}
+
+.img-icon {
+	border: 2px solid black;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    max-height: 400px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
