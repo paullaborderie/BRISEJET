@@ -43,155 +43,184 @@ div {
 }
 
 .row [class^="col-"] {
-    border: 1px solid #ddd;
-    border: 1px solid rgba(86,61,124,.2);
-}  <!-- pour visulaiser grid bootstrap -->
+	border: 1px solid #ddd;
+	border: 1px solid rgba(86,61,124,.2);
+	}  <!-- pour visulaiser grid bootstrap -->
 
 
-#logo {
-	width: 50px;
-	border: 2px solid black;
-}
-
-.navbar-default {
-	background:transparent;
-    border-color: transparent;
-    padding-right: 50px;
-}
-
-.navbar-default .navbar-brand {
-    color: #fff;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fff;
-}
-
-.user {
-	width: 110px;
-}
-
-.teaser-content {
-	padding: 40px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 80px;
-	color: white;
+	#logo {
+		width: 50px;
+		border: 2px solid black;
 	}
 
-#teaser {	
-	padding-top: 100px;
-    background: url("https://res.cloudinary.com/zipjet/image/upload/v1443537350/top-section-bg-2b_olejmc.jpg") 
-    no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+	.navbar-default {
+		background:transparent;
+		border-color: transparent;
+		padding-right: 50px;
+	}
 
-#teaser-title {
-	margin-bottom: 25px;
-}
+	.navbar-default .navbar-brand {
+		color: #fff;
+	}
 
+	.navbar-default .navbar-nav>li>a {
+		color: #fff;
+	}
 
-#users {
-	border: 2px solid green;
-	text-align: left;
-}
+	.teaser-content {
+		padding: 40px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 80px;
+		color: white;
+	}
 
-#apps {
-	padding-top: 10px;
-	padding-bottom: 10px; 
-	background-color: rgba(0, 0, 0, 0.6);
-}
+	#teaser {	
+		padding-top: 100px;
+		background: url("https://res.cloudinary.com/zipjet/image/upload/v1443537350/top-section-bg-2b_olejmc.jpg") 
+		no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 
-.badges {
-	height: 50px;
-}
+	#teaser-title {
+		margin-bottom: 25px;
+	}
 
-#press {
-	background-color: #F9F9F9;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+	#users {
+		border: 2px solid green;
+	}
 
-#press img {
-	width: 100%;
-	height: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
+	.user {
+		width: 110px;
+	}
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-}
+	.content {
+		vertical-align: middle;
+	}
 
-img:hover {
-	opacity: 0.8;
-}
+	#apps {
+		padding-top: 10px;
+		padding-bottom: 10px; 
+		background-color: rgba(0, 0, 0, 0.6);
+	}
 
-#how-it-works {
-	border: 2px solid red;
-}
+	.badges {
+		height: 50px;
+	}
 
-#how-it-works h3 {
-	color: #3a483f;
-} 
+	#press {
+		background-color: #F9F9F9;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
 
-.sub-heading {
-	display: block;
-	font-weight: normal;
-}
+	#press img {
+		width: 100%;
+		height: 50px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 
-iframe:focus { 
-    outline: none;
-}
+	.vcenter {
+		display: inline-block;
+		vertical-align: middle;
+	}
 
-iframe[seamless] { 
-    display: block;
-}
+	img:hover {
+		opacity: 0.8;
+	}
 
-#value-prop {
-	text-align: center;
-	margin-top: 10px;
-	height: auto;
-}
+	#how-it-works {
+		border: 2px solid red;
+	}
 
-#intro-video {
-	margin-top: 10px;
-	padding: 10px;
-	border: 2px solid green;
+	#how-it-works h3 {
+		color: #3a483f;
+	} 
 
-}
+	.sub-heading {
+		display: block;
+		font-weight: normal;
+	}
 
-.perks {
-	border: 2px solid grey;
-}
+	iframe:focus { 
+		outline: none;
+	}
 
-.perks-text {
+	iframe[seamless] { 
+		display: block;
+	}
 
-}
+	#value-prop {
+		text-align: center;
+		margin-top: 10px;
+		height: auto;
+	}
 
-.img-icon {
-	border: 2px solid black;
-}
+	#intro-video {
+		margin-top: 10px;
+		padding: 10px;
+		border: 2px solid green;
 
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-    max-height: 400px;
-}
+	}
 
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+	.perks {
+		border: 2px solid grey;
+	}
+
+	.perks-text {
+
+	}
+
+	.img-icon {
+		border: 2px solid black;
+		height: 100px;
+	}
+
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+		max-height: 400px;
+	}
+
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.footer {	
+		background-color: #0d2c33;
+		color: white;
+		text-align: center;
+	}
+
+	.footer a {
+		color: white;
+	}
+
+	.footer	ul li {
+		display: inline-block;
+	}
+
+	.f1 {
+		display: table-row;
+	}
+
+	.f2 {
+		display: table-cell;
+	}
+
+	.disclaimer {
+		padding-top: 20px;
+	}
