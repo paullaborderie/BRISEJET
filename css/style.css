@@ -36,17 +36,17 @@ div {
 	width: auto;
 }
 
-.row {
+row {
 	margin-right: 0px;
 	margin-left: 0px;
 	border: 1px solid #ddd;
 }
 
-.row [class^="col-"] {
+row [class^="col-"] {
 	border: 1px solid #ddd;
 	border: 1px solid rgba(86,61,124,.2);
 	}  <!-- pour visulaiser grid bootstrap -->
-
+-->
 
 	#logo {
 		width: 50px;
@@ -60,11 +60,11 @@ div {
 	}
 
 	.navbar-default .navbar-brand {
-		color: #fff;
+		color: black;
 	}
 
 	.navbar-default .navbar-nav>li>a {
-		color: #fff;
+		color: black;
 	}
 
 	.teaser-content {
@@ -87,10 +87,6 @@ div {
 
 	#teaser-title {
 		margin-bottom: 25px;
-	}
-
-	#users {
-		border: 2px solid green;
 	}
 
 	.user {
@@ -136,10 +132,6 @@ div {
 		opacity: 0.8;
 	}
 
-	#how-it-works {
-		border: 2px solid red;
-	}
-
 	#how-it-works h3 {
 		color: #3a483f;
 	} 
@@ -147,6 +139,7 @@ div {
 	.sub-heading {
 		display: block;
 		font-weight: normal;
+		padding-top: 30px;
 	}
 
 	iframe:focus { 
@@ -166,21 +159,13 @@ div {
 	#intro-video {
 		margin-top: 10px;
 		padding: 10px;
-		border: 2px solid green;
-
-	}
-
-	.perks {
-		border: 2px solid grey;
-	}
-
-	.perks-text {
 
 	}
 
 	.img-icon {
-		border: 2px solid black;
 		height: 100px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
 	.videoWrapper {
@@ -230,9 +215,17 @@ div {
 	}
 
 	.vertical-spacer {
-		height: 8em;
-	}
-	
-#contact a {
-	color: black;
+		height: 3em;
+	}	
+
+.contact {
+	margin-top: 100px;
+}
+
+.user-content {
+	padding-top: 3em;
+}
+
+#user-stories h3 {
+	color: #3a483f;
 }
