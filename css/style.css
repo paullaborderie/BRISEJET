@@ -224,3 +224,15 @@ div {
 	.disclaimer {
 		padding-top: 20px;
 	}
+
+	.well {
+		margin-bottom: 0px;
+	}
+
+	.vertical-spacer {
+		height: 8em;
+	}
+	
+#contact a {
+	color: black;
+}
